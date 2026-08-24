@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#123B71</color>
+    <color name="primary_dark">#0B2A54</color>
+    <color name="primary_light">#2E5C9E</color>
+    <color name="accent_gold">#C9A227</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <color name="bg_app">#F4F2EC</color>
+    <color name="bg_card">#FFFFFF</color>
+
+    <color name="text_primary">#1A1A1A</color>
+    <color name="text_secondary">#5A5A5A</color>
+    <color name="text_on_primary">#FFFFFF</color>
+
+    <!-- Category header row (M_type = 2) -->
+    <color name="header_bg">#123B71</color>
+    <color name="header_text">#F4D06F</color>
+
+    <!-- Default reading screen palette (overridable in Settings) -->
+    <color name="default_dua_color">#0B2A54</color>
+    <color name="default_translate_color">#6B6357</color>
+    <color name="default_reading_bg">#FBF8F1</color>
+
+    <color name="divider">#E0DED6</color>
+    <color name="star_gold">#C9A227</color>
+    <color name="star_off">#B9B6AC</color>
+
+    <!-- Splash screen -->
+    <color name="night_sky_blue">#0A1128</color>
+</resources>

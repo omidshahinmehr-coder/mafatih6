@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Legacy backup rules (Android <12 / android:allowBackup full-data backup). -->
+<full-backup-content>
+    <include domain="database" path="mafatih.db" />
+    <include domain="sharedpref" path="mafatih_prefs.xml" />
+</full-backup-content>

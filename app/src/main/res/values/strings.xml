@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">مفاتیح الجنان</string>
+
+    <string name="menu_categories">فهرست مفاتیح الجنان</string>
+    <string name="menu_montakhab">فهرست منتخب</string>
+    <string name="menu_favorites">فهرست برگزیده</string>
+    <string name="menu_bookmarks">نشانک‌ها</string>
+    <string name="menu_search">جستجو</string>
+    <string name="menu_settings">تنظیمات</string>
+    <string name="menu_continue">ادامه مطالعه</string>
+
+    <string name="empty_list">موردی برای نمایش وجود ندارد</string>
+    <string name="empty_favorites">هنوز چیزی به فهرست برگزیده اضافه نکرده‌اید</string>
+    <string name="empty_bookmarks">هنوز نشانکی ثبت نکرده‌اید</string>
+    <string name="empty_search">نتیجه‌ای یافت نشد</string>
+
+    <string name="action_search">جستجو در متن</string>
+    <string name="hint_search">جستجو در ادعیه…</string>
+    <string name="action_favorite">افزودن به فهرست برگزیده</string>
+    <string name="action_unfavorite">حذف از فهرست برگزیده</string>
+    <string name="action_bookmark">ثبت نشانک در این خط</string>
+    <string name="action_delete_bookmark">حذف نشانک</string>
+    <string name="action_share">اشتراک‌گذاری</string>
+
+    <string name="settings_title">تنظیمات نمایش</string>
+    <string name="settings_font">قلم متن</string>
+    <string name="settings_font_size">اندازه قلم</string>
+    <string name="settings_dua_color">رنگ متن دعا</string>
+    <string name="settings_translate_color">رنگ ترجمه</string>
+    <string name="settings_bg_color">رنگ پس‌زمینه</string>
+    <string name="settings_show_translate">نمایش ترجمه</string>
+    <string name="settings_reset">بازگردانی به پیش‌فرض</string>
+
+    <string name="bookmark_saved">نشانک ذخیره شد</string>
+    <string name="bookmark_removed">نشانک حذف شد</string>
+    <string name="no_translation">ترجمه‌ای برای این بخش ثبت نشده است</string>
+
+    <string name="continue_reading_empty">هنوز مطالعه‌ای ثبت نشده است</string>
+
+    <string name="salawat_text">اَللّهُمَّ صَلِّ عَلَی مُحَمَّدِِ وَ آلِ مُحَمَّد\nوَ عَجِّل فَرَجَهُم وَ العَن اَعدائَهُم اَجمعین</string>
+
+    <string name="menu_about">درباره برنامه</string>
+    <string name="about_app_name">مفاتیح الجنان</string>
+    <string name="about_developer_label">طراح و برنامه‌نویس</string>
+    <string name="about_developer_name">امید شاهین‌مهر</string>
+    <string name="about_email_label">ایمیل</string>
+    <string name="about_version_label">نسخه</string>
+</resources>

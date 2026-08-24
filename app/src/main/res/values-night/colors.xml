@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Overrides for system dark mode. Brand colors (primary/accent) stay the
+         same across modes; surfaces and text invert. The user's own reading
+         screen colors (dua/translate/background) are stored as explicit ARGB
+         values in PrefsManager and are intentionally NOT affected by this -
+         that's a separate, user-controlled preference. -->
+
+    <color name="bg_app">#121212</color>
+    <color name="bg_card">#1E1E1E</color>
+
+    <color name="text_primary">#ECECEC</color>
+    <color name="text_secondary">#B0AEA8</color>
+
+    <color name="divider">#333333</color>
+</resources>

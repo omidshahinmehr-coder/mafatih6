@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lineContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingVertical="10dp">
+
+    <!-- Arabic dua text: full width, wraps freely across as many lines as it
+         needs - nothing sits beside it, so line-wrapping is never affected
+         by the bookmark icon. -->
+    <TextView
+        android:id="@+id/tvDuaText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textDirection="rtl"
+        android:textAlignment="textStart"
+        android:justificationMode="inter_word"
+        android:lineSpacingExtra="10dp"
+        android:textSize="20sp" />
+
+    <!-- Bookmark icon: its own row right after the *whole* dua text block
+         (after its last line, not the first), aligned to the end side. -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end">
+
+        <ImageView
+            android:id="@+id/ivBookmarkLine"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_marginTop="4dp"
+            android:padding="4dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true"
+            android:contentDescription="@string/action_bookmark"
+            android:src="@drawable/ic_bookmark_outline" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvTranslateText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textDirection="rtl"
+        android:textAlignment="textStart"
+        android:justificationMode="inter_word"
+        android:lineSpacingExtra="6dp"
+        android:textSize="15sp" />
+
+</LinearLayout>
